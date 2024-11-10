@@ -12,6 +12,7 @@ import Kitchen from '../../assets/icons/kitchen.svg' ;
 import Toilet from '../../assets/icons/toilet.svg';
 import Deck from '../../assets/icons/deck.svg';
 import ConstructionIcon from '../../assets/icons/construction.svg';
+import FloorPlan from '../components/FloorPlan/FloorPlan';
 
 const Listing = () => {
   const data= {
@@ -43,6 +44,7 @@ const Listing = () => {
     <div className='listing-page'>
       <ImageContainer title={data?.title} description={data?.description} />
       <ProjectDisplay imagesList={data?.images} projectDetails={data?.projectDetails} />
+      <FloorPlan />
     </div>
   )
 }

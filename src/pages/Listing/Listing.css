@@ -1,6 +1,4 @@
 .listing-page {
-    height: 80%;
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
 }

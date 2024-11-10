@@ -1,0 +1,42 @@
+.floor-plan-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.fp-divider-wrapper {
+    position: relative;
+    width: 60%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floor-plan-divider {
+    display: flex;
+    width: 95%;
+    height:0.2rem;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #463B4C 11%, rgba(255, 255, 255, 0) 100%);
+}
+
+.fp-text {
+    position: absolute;
+    font-weight: 600;
+    padding: 0.1rem 1.5rem;
+    font-size: 30px;
+    background-color: white;
+}
+
+.take-a-look-text {
+width: 25rem;
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #636363;
+}
