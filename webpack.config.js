@@ -7,6 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  devtool: 'inline-source-map',
   module: {
     rules: [
       {
@@ -34,7 +35,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      inject: true,
+      inject: false,
       // copys the content of the existing index.html to the new /build index.html
       template: './src/index.html',
     })
@@ -47,8 +48,12 @@ module.exports = {
   
    
   },
-  
-  mode: 'production',
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+},
+mode: 'production',
    resolve: {
         extensions: ['', '.js', '.jsx', '.css'],
         modules: [

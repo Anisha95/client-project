@@ -1,6 +1,6 @@
 import React from 'react';
 import './ImageContainer.css';
-import MainImg from '../../../assets/icons/categ-item.jpeg'
+import MainImg from '../../../assets/icons/categ-item.jpg'
 
 const ImageContainer = ({
     title,
