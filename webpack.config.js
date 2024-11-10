@@ -34,6 +34,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      inject: true,
+      // copys the content of the existing index.html to the new /build index.html
       template: './src/index.html',
     })
   ],
