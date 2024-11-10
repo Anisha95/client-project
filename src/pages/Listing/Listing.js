@@ -42,9 +42,8 @@ const Listing = () => {
   }
   return (
     <div className='listing-page'>
-     <p>hello</p>
-      {/* <ImageContainer title={data?.title} description={data?.description} />
-      <ProjectDisplay imagesList={data?.images} projectDetails={data?.projectDetails} /> */}
+      <ImageContainer title={data?.title} description={data?.description} />
+      <ProjectDisplay imagesList={data?.images} projectDetails={data?.projectDetails} />
       <FloorPlan />
     </div>
   )

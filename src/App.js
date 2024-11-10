@@ -7,13 +7,11 @@ import Footer from './components/Footer/Footer';
 
 function App() {
     return(<Router>
-    <div className="app">
      <Header />
         <Routes>
           <Route path="/" element={<Listing />} />
         </Routes>
       <Footer />
-    </div>
   </Router>)
 }
 
