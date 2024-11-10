@@ -26,9 +26,12 @@ function Header() {
         </div>
     </div>
     <div className='bottom-header'>
+      <div className='menu-space'>
       <div className='bottom-each-item'>Why wooden house?</div>
       <div  className='bottom-each-item'>Benefits of wooden house</div>
       <div className='bottom-each-item'>3D design tour</div>
+      </div>
+    <div className='blank-space' />
     </div>
     </div>
   );
