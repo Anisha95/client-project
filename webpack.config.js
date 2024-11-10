@@ -41,13 +41,12 @@ module.exports = {
     static: {
         directory: path.join(__dirname, "./")
       },
-    // contentBase: path.resolve(__dirname, 'dist'),
     port: 3000,
   
    
   },
   
-  mode: 'development',
+  mode: 'production',
    resolve: {
         extensions: ['', '.js', '.jsx', '.css'],
         modules: [
